@@ -1,4 +1,4 @@
-const APIKey = "c1233691e202fdcc0abd46da374f3df0";
+const APIKey = "27c0507948e77783dee5bab03843e634";
 let resultAPI;
 
 const temperature = document.querySelector('.temperature');
