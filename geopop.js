@@ -45,12 +45,12 @@ function APICall(longitude, latitude) {
 
 let actualHour = new Date().getHours();
 if (actualHour >=6 && actualHour < 21) {
-    document.getElementById('bodybg').style.background="url(daybackground.png) no-repeat";
+    document.getElementById('bodybg').style.background="url(jour.png) no-repeat";
     document.getElementById("temp").style.color = '#2c3e50';
     document.getElementById("loc").style.color = '#2c3e50';
     document.getElementById("time").style.color = '#2c3e50';
 } else {
-    document.getElementById('bodybg').style.background="url(nightbackground.png) no-repeat";
+    document.getElementById('bodybg').style.background="url(nuit.png) no-repeat";
     document.getElementById("temp").style.color = '#dfe4ea';
     document.getElementById("loc").style.color = '#a4b0be';
     document.getElementById("time").style.color = '#dfe4ea';
